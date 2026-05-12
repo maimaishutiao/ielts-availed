@@ -1,0 +1,9 @@
+.git
+.claude
+node_modules
+dashboard/node_modules
+dashboard/dist
+npm-debug.log*
+.DS_Store
+*.tgz
+coverage

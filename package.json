@@ -1,0 +1,9 @@
+{
+  "name": "ielts-availed",
+  "private": true,
+  "dependencies": {
+    "glob": "^13.0.6",
+    "gray-matter": "^4.0.3",
+    "zod": "^4.3.6"
+  }
+}

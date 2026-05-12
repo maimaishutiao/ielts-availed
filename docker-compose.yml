@@ -1,0 +1,10 @@
+services:
+  ielts-dashboard:
+    build: .
+    container_name: ielts-dashboard
+    ports:
+      - "8080:8080"
+    volumes:
+      - ~/.ielts:/data/.ielts
+      - ~/.ielts-backups:/data/.ielts-backups
+    restart: unless-stopped
